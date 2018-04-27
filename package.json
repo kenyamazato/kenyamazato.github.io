@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "start": "serve docs"
-  },
-  "devDependencies": {
-    "serve": "^6.5.6"
-  }
-}
