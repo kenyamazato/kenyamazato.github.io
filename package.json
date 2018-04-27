@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "serve src"
+    "start": "serve docs"
   },
   "devDependencies": {
     "serve": "^6.5.6"
