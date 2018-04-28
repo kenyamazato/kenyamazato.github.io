@@ -1,10 +1,60 @@
 body {
     text-align: center;
     color: blue;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
+}
+
+p:hover {
+    color: black;
+}
+
+.section {
+
+    width: 50%;
+    color: violet;
+    border: solid 3px blue;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 50px auto;
+
+    transition: all 0.2s
+
+}
+
+.section:hover {
+    background: blue;
+}
+
+.section2 {
+
+    width: 25%;
+    color: orange;
+    border: solid 3px blue;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 50px auto;
+
+    transition: all 0.2s;
+}
+
+.section2:hover {
+    background: blue;
+    cursor: pointer;
+
+}
+
+.box {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.box:hover {
+    background: green;
 }
